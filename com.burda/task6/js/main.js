@@ -1,0 +1,11 @@
+var date = new Date();
+console.log(date.getFullYear());
+console.log(date.getMonth() + 1);
+console.log(date.getDate());
+console.log(date.getHours());
+var arr = [-1, 99, 18, 15, 1, 0, 22, 14];
+console.log(arr.join(", "));
+console.log(arr.sort());
+console.log(arr.sort().reverse());
+var string = arr.join(", ");
+console.log(string.split(", "));
